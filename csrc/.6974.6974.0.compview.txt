@@ -1,0 +1,5 @@
+{"comelab":{"timestamp_begin":1711653971.549302564, "rt":0.94, "ut":0.43, "st":0.56}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1711653971.111225937}
+{"VCS_COMP_START_TIME": 1711653971.111225937}
+{"VCS_COMP_END_TIME": 1711653972.553172791}
+{"VCS_USER_OPTIONS": "-q -nc -sverilog -sverilog -nc Grader Grader_test"}

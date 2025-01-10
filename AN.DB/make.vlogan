@@ -1,0 +1,17 @@
+
+VLOGAN	= vlogan
+VLOGAN_OPT	= -sverilog -full64
+
+all :		_VCSgd_2XDtbb_1.db \
+	_VCSgd_di4v8b_1.db \
+
+
+
+_VCSgd_2XDtbb_1.db :	/afs/andrew.cmu.edu/usr12/tbeasley/private/240/library.sv 
+		${VLOGAN}  ${VLOGAN_OPT} /afs/andrew.cmu.edu/usr12/tbeasley/private/240/library.sv
+
+
+_VCSgd_di4v8b_1.db :	zorgGame.sv 
+		${VLOGAN}  ${VLOGAN_OPT} zorgGame.sv
+
+

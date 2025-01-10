@@ -1,0 +1,88 @@
+Chronologic VCS simulator copyright 1991-2022
+Contains Synopsys proprietary information.
+Compiler version T-2022.06_Full64; Runtime version T-2022.06_Full64;  Mar 28 22:17 2024
+VCD+ Writer T-2022.06_Full64 Copyright (c) 1991-2022 by Synopsys Inc.
+The file '/afs/andrew.cmu.edu/usr12/tbeasley/private/240/Labs/Lab4/inter.vpd' was opened successfully.
+
+Warning-[RT-NCMUCS] No condition matches in statement
+zorgGame.sv, 316
+  No condition matches in 'unique case' statement. 'default' specification is 
+  missing, inside ChipInterface.game.takeCoins, at time 0s.
+
+
+Warning-[RT-NCMUCS] No condition matches in statement
+zorgGame.sv, 649
+  No condition matches in 'unique case' statement. 'default' specification is 
+  missing, inside ChipInterface.game.f1, at time 0s.
+
+
+Warning-[RT-NCMUCS] No condition matches in statement
+zorgGame.sv, 777
+  No condition matches in 'unique case' statement. 'default' specification is 
+  missing, inside ChipInterface.game.f2, at time 0s.
+
+
+Warning-[RT-NCMUCS] No condition matches in statement
+zorgGame.sv, 316
+  No condition matches in 'unique case' statement. 'default' specification is 
+  missing, inside ZorgGame_test.DUT.takeCoins, at time 0s.
+
+
+Warning-[RT-NCMUCS] No condition matches in statement
+zorgGame.sv, 649
+  No condition matches in 'unique case' statement. 'default' specification is 
+  missing, inside ZorgGame_test.DUT.f1, at time 0s.
+
+
+Warning-[RT-NCMUCS] No condition matches in statement
+zorgGame.sv, 777
+  No condition matches in 'unique case' statement. 'default' specification is 
+  missing, inside ZorgGame_test.DUT.f2, at time 0s.
+
+                   0 Coin = 01 location = 00 coinInserted = 1 start = 1 grade = 1 loadShape = 110 loadNow = 1 guess = 010001110001 Znarly =  0 Zood =  0, RoundNumber =  x, NumGames =  x Won = 0
+                  15 Coin = 01 location = 00 coinInserted = 1 start = 1 grade = 1 loadShape = 110 loadNow = 1 guess = 010001110001 Znarly =  0 Zood =  0, RoundNumber =  0, NumGames =  0 Won = 0
+                  35 Coin = 01 location = 00 coinInserted = 1 start = 0 grade = 1 loadShape = 110 loadNow = 1 guess = 010001110001 Znarly =  0 Zood =  0, RoundNumber =  0, NumGames =  0 Won = 0
+                  75 Coin = 01 location = 00 coinInserted = 1 start = 0 grade = 1 loadShape = 110 loadNow = 0 guess = 010001110001 Znarly =  0 Zood =  0, RoundNumber =  0, NumGames =  0 Won = 0
+                 105 Coin = 01 location = 00 coinInserted = 0 start = 1 grade = 1 loadShape = 110 loadNow = 1 guess = 010001110001 Znarly =  0 Zood =  0, RoundNumber =  0, NumGames =  0 Won = 0
+                 145 Coin = 01 location = 00 coinInserted = 1 start = 1 grade = 1 loadShape = 110 loadNow = 1 guess = 010001110001 Znarly =  0 Zood =  0, RoundNumber =  0, NumGames =  0 Won = 0
+                 195 Coin = 10 location = 00 coinInserted = 0 start = 1 grade = 1 loadShape = 110 loadNow = 1 guess = 010001110001 Znarly =  0 Zood =  0, RoundNumber =  0, NumGames =  0 Won = 0
+                 225 Coin = 10 location = 00 coinInserted = 1 start = 1 grade = 1 loadShape = 110 loadNow = 1 guess = 010001110001 Znarly =  0 Zood =  0, RoundNumber =  0, NumGames =  0 Won = 0
+                 275 Coin = 10 location = 00 coinInserted = 1 start = 1 grade = 1 loadShape = 110 loadNow = 1 guess = 010001110001 Znarly =  0 Zood =  0, RoundNumber =  0, NumGames =  1 Won = 0
+                 295 Coin = 11 location = 00 coinInserted = 0 start = 1 grade = 1 loadShape = 110 loadNow = 1 guess = 010001110001 Znarly =  0 Zood =  0, RoundNumber =  0, NumGames =  1 Won = 0
+                 315 Coin = 11 location = 00 coinInserted = 1 start = 1 grade = 1 loadShape = 110 loadNow = 1 guess = 010001110001 Znarly =  0 Zood =  0, RoundNumber =  0, NumGames =  1 Won = 0
+                 365 Coin = 11 location = 00 coinInserted = 1 start = 1 grade = 1 loadShape = 110 loadNow = 1 guess = 010001110001 Znarly =  0 Zood =  0, RoundNumber =  0, NumGames =  2 Won = 0
+                 395 Coin = 11 location = 00 coinInserted = 0 start = 1 grade = 1 loadShape = 110 loadNow = 1 guess = 010001110001 Znarly =  0 Zood =  0, RoundNumber =  0, NumGames =  2 Won = 0
+                 425 Coin = 11 location = 00 coinInserted = 1 start = 1 grade = 1 loadShape = 110 loadNow = 1 guess = 010001110001 Znarly =  0 Zood =  0, RoundNumber =  0, NumGames =  2 Won = 0
+                 475 Coin = 11 location = 00 coinInserted = 1 start = 1 grade = 1 loadShape = 110 loadNow = 1 guess = 010001110001 Znarly =  0 Zood =  0, RoundNumber =  0, NumGames =  3 Won = 0
+                 505 Coin = 11 location = 00 coinInserted = 0 start = 1 grade = 1 loadShape = 110 loadNow = 1 guess = 010001110001 Znarly =  0 Zood =  0, RoundNumber =  0, NumGames =  3 Won = 0
+                 535 Coin = 11 location = 00 coinInserted = 1 start = 1 grade = 1 loadShape = 110 loadNow = 1 guess = 010001110001 Znarly =  0 Zood =  0, RoundNumber =  0, NumGames =  3 Won = 0
+                 585 Coin = 11 location = 00 coinInserted = 1 start = 1 grade = 1 loadShape = 110 loadNow = 1 guess = 010001110001 Znarly =  0 Zood =  0, RoundNumber =  0, NumGames =  4 Won = 0
+                 615 Coin = 11 location = 00 coinInserted = 0 start = 1 grade = 1 loadShape = 110 loadNow = 1 guess = 010001110001 Znarly =  0 Zood =  0, RoundNumber =  0, NumGames =  4 Won = 0
+                 645 Coin = 11 location = 00 coinInserted = 1 start = 1 grade = 1 loadShape = 110 loadNow = 1 guess = 010001110001 Znarly =  0 Zood =  0, RoundNumber =  0, NumGames =  4 Won = 0
+                 695 Coin = 11 location = 00 coinInserted = 1 start = 1 grade = 1 loadShape = 110 loadNow = 1 guess = 010001110001 Znarly =  0 Zood =  0, RoundNumber =  0, NumGames =  5 Won = 0
+                 725 Coin = 11 location = 00 coinInserted = 0 start = 1 grade = 1 loadShape = 110 loadNow = 1 guess = 010001110001 Znarly =  0 Zood =  0, RoundNumber =  0, NumGames =  5 Won = 0
+                 755 Coin = 11 location = 00 coinInserted = 1 start = 1 grade = 1 loadShape = 110 loadNow = 1 guess = 010001110001 Znarly =  0 Zood =  0, RoundNumber =  0, NumGames =  5 Won = 0
+                 805 Coin = 11 location = 00 coinInserted = 1 start = 1 grade = 1 loadShape = 110 loadNow = 1 guess = 010001110001 Znarly =  0 Zood =  0, RoundNumber =  0, NumGames =  6 Won = 0
+                 835 Coin = 11 location = 00 coinInserted = 0 start = 1 grade = 1 loadShape = 110 loadNow = 1 guess = 010001110001 Znarly =  0 Zood =  0, RoundNumber =  0, NumGames =  6 Won = 0
+                 865 Coin = 11 location = 00 coinInserted = 1 start = 1 grade = 1 loadShape = 110 loadNow = 1 guess = 010001110001 Znarly =  0 Zood =  0, RoundNumber =  0, NumGames =  6 Won = 0
+                 915 Coin = 11 location = 00 coinInserted = 1 start = 1 grade = 1 loadShape = 110 loadNow = 1 guess = 010001110001 Znarly =  0 Zood =  0, RoundNumber =  0, NumGames =  7 Won = 0
+                 945 Coin = 11 location = 00 coinInserted = 1 start = 0 grade = 1 loadShape = 110 loadNow = 1 guess = 010001110001 Znarly =  0 Zood =  0, RoundNumber =  0, NumGames =  7 Won = 0
+                 955 Coin = 11 location = 00 coinInserted = 1 start = 1 grade = 1 loadShape = 110 loadNow = 1 guess = 010001110001 Znarly =  0 Zood =  0, RoundNumber =  0, NumGames =  7 Won = 0
+                 975 Coin = 11 location = 10 coinInserted = 1 start = 1 grade = 1 loadShape = 110 loadNow = 0 guess = 010001110001 Znarly =  0 Zood =  0, RoundNumber =  0, NumGames =  7 Won = 0
+                1005 Coin = 11 location = 10 coinInserted = 1 start = 1 grade = 1 loadShape = 110 loadNow = 1 guess = 010001110001 Znarly =  0 Zood =  0, RoundNumber =  0, NumGames =  7 Won = 0
+                1045 Coin = 11 location = 10 coinInserted = 1 start = 1 grade = 1 loadShape = 110 loadNow = 0 guess = 010001110001 Znarly =  0 Zood =  0, RoundNumber =  0, NumGames =  7 Won = 0
+                1075 Coin = 11 location = 10 coinInserted = 1 start = 1 grade = 1 loadShape = 110 loadNow = 1 guess = 010001110001 Znarly =  0 Zood =  0, RoundNumber =  0, NumGames =  7 Won = 0
+                1105 Coin = 11 location = 00 coinInserted = 1 start = 1 grade = 1 loadShape = 001 loadNow = 0 guess = 010001110001 Znarly =  0 Zood =  0, RoundNumber =  0, NumGames =  7 Won = 0
+                1145 Coin = 11 location = 00 coinInserted = 1 start = 1 grade = 1 loadShape = 001 loadNow = 1 guess = 010001110001 Znarly =  0 Zood =  0, RoundNumber =  0, NumGames =  7 Won = 0
+                1195 Coin = 11 location = 00 coinInserted = 1 start = 1 grade = 1 loadShape = 110 loadNow = 0 guess = 010001110001 Znarly =  0 Zood =  0, RoundNumber =  0, NumGames =  7 Won = 0
+                1235 Coin = 11 location = 00 coinInserted = 1 start = 1 grade = 1 loadShape = 110 loadNow = 1 guess = 010001110001 Znarly =  0 Zood =  0, RoundNumber =  0, NumGames =  7 Won = 0
+                1285 Coin = 11 location = 11 coinInserted = 1 start = 1 grade = 1 loadShape = 101 loadNow = 0 guess = 010001110001 Znarly =  0 Zood =  0, RoundNumber =  0, NumGames =  7 Won = 0
+                1325 Coin = 11 location = 11 coinInserted = 1 start = 1 grade = 1 loadShape = 101 loadNow = 1 guess = 010001110001 Znarly =  0 Zood =  0, RoundNumber =  0, NumGames =  7 Won = 0
+                1375 Coin = 11 location = 01 coinInserted = 1 start = 1 grade = 1 loadShape = 100 loadNow = 0 guess = 010001110001 Znarly =  0 Zood =  0, RoundNumber =  0, NumGames =  7 Won = 0
+                1415 Coin = 11 location = 01 coinInserted = 1 start = 1 grade = 1 loadShape = 100 loadNow = 1 guess = 010001110001 Znarly =  0 Zood =  0, RoundNumber =  0, NumGames =  7 Won = 0
+                1465 Coin = 11 location = 01 coinInserted = 1 start = 1 grade = 0 loadShape = 100 loadNow = 1 guess = 010001110001 Znarly =  0 Zood =  0, RoundNumber =  0, NumGames =  7 Won = 0
+                1515 Coin = 11 location = 01 coinInserted = 1 start = 1 grade = 1 loadShape = 100 loadNow = 1 guess = 010001110001 Znarly =  0 Zood =  0, RoundNumber =  0, NumGames =  7 Won = 0
+                1555 Coin = 11 location = 01 coinInserted = 1 start = 1 grade = 1 loadShape = 100 loadNow = 1 guess = 010001110001 Znarly =  1 Zood =  1, RoundNumber =  1, NumGames =  7 Won = 0
+$finish called from file "zorgGame.sv", line 1296.
+$finish at simulation time                 1566
+Simulation complete, time is 1566.

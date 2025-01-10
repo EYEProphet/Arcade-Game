@@ -1,0 +1,9 @@
+{"vcs1":{"timestamp_begin":1711682395.595858640, "rt":1.37, "ut":0.73, "st":0.33}}
+{"vcselab":{"timestamp_begin":1711682397.047296402, "rt":0.66, "ut":0.35, "st":0.20}}
+{"link":{"timestamp_begin":1711682397.763666554, "rt":0.50, "ut":0.13, "st":0.30}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1711682394.998505692}
+{"VCS_COMP_START_TIME": 1711682394.998505692}
+{"VCS_COMP_END_TIME": 1711682398.342220291}
+{"VCS_USER_OPTIONS": "-q -nc -sverilog -sverilog -debug /afs/andrew.cmu.edu/usr12/tbeasley/private/240/library.sv mastermindVGA.sv zorgGame.sv"}
+{"vcs1": {"peak_mem": 340760}}
+{"stitch_vcselab": {"peak_mem": 230796}}

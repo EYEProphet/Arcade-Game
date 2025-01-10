@@ -1,0 +1,122 @@
+{
+    "_vcs_unit__4150229436": [
+        "_vcs_unit__4150229436",
+        "eSaiP",
+        "module",
+        22
+    ],
+    "std": [
+        "std",
+        "reYIK",
+        "module",
+        1
+    ],
+    "Decoder": [
+        "Decoder",
+        "t8TcA",
+        "module",
+        4
+    ],
+    "BarrelShifter": [
+        "BarrelShifter",
+        "p7fYB",
+        "module",
+        7
+    ],
+    "Multiplexer": [
+        "Multiplexer",
+        "UxyT3",
+        "module",
+        6
+    ],
+    "MagComp": [
+        "MagComp",
+        "vaLRj",
+        "module",
+        5
+    ],
+    "Comparator": [
+        "Comparator",
+        "ZPSNi",
+        "module",
+        15
+    ],
+    "DFlipFlop": [
+        "DFlipFlop",
+        "NafP4",
+        "module",
+        8
+    ],
+    "ShiftRegisterSIPO": [
+        "ShiftRegisterSIPO",
+        "QtqVB",
+        "module",
+        9
+    ],
+    "ShiftRegisterPIPO": [
+        "ShiftRegisterPIPO",
+        "w133T",
+        "module",
+        10
+    ],
+    "BarrelShiftRegister": [
+        "BarrelShiftRegister",
+        "ts568",
+        "module",
+        11
+    ],
+    "BusDriver": [
+        "BusDriver",
+        "Bt4nZ",
+        "module",
+        12
+    ],
+    "Memory": [
+        "Memory",
+        "f0K8C",
+        "module",
+        13
+    ],
+    "mastermindVGA": [
+        "mastermindVGA",
+        "UP2FY",
+        "module",
+        17
+    ],
+    "ChipInterface": [
+        "ChipInterface",
+        "VHM6x",
+        "module",
+        18
+    ],
+    "Grader": [
+        "Grader",
+        "dfF10",
+        "module",
+        2
+    ],
+    "Shape_Counter": [
+        "Shape_Counter",
+        "mW4Cq",
+        "module",
+        14
+    ],
+    "SevenSegmentDisplay": [
+        "SevenSegmentDisplay",
+        "eIk01",
+        "module",
+        16
+    ],
+    "BCDtoSevenSegment": [
+        "BCDtoSevenSegment",
+        "kuSVi",
+        "module",
+        20
+    ],
+    "...MASTER...": [
+        "SIM",
+        "amcQw",
+        "module",
+        3
+    ]
+}

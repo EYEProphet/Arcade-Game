@@ -1,0 +1,54 @@
+
+State Machine - |ChipInterface|ZorgGame:game|numOfGameFSM:f2|currState
+Name currState.REMOVEGAME currState.STOP currState.PAID currState.INIT 
+currState.INIT 0 0 0 0 
+currState.PAID 0 0 1 1 
+currState.STOP 0 1 0 1 
+currState.REMOVEGAME 1 0 0 1 
+
+State Machine - |ChipInterface|ZorgGame:game|masterPatternFSM:f1|currState
+Name currState.HOLD1 currState.WON currState.INCROUND currState.EXIT currState.FINISH currState.FINISHPREP currState.PREP currState.INIT currState.HOLD2 
+currState.INIT 0 0 0 0 0 0 0 0 0 
+currState.PREP 0 0 0 0 0 0 1 1 0 
+currState.FINISHPREP 0 0 0 0 0 1 0 1 0 
+currState.FINISH 0 0 0 0 1 0 0 1 0 
+currState.EXIT 0 0 0 1 0 0 0 1 0 
+currState.INCROUND 0 0 1 0 0 0 0 1 0 
+currState.WON 0 1 0 0 0 0 0 1 0 
+currState.HOLD1 1 0 0 0 0 0 0 1 0 
+currState.HOLD2 0 0 0 0 0 0 0 1 1 
+
+State Machine - |ChipInterface|ZorgGame:game|myAbstractFSMExpanded:takeCoins|currState
+Name currState.HOLDP31 currState.HOLDT31 currState.HOLDC31 currState.CRED3DROP1 currState.HOLDP21 currState.HOLDT21 currState.HOLDC21 currState.CRED2DROP1 currState.HOLDP11 currState.HOLDT11 currState.HOLDC11 currState.CRED1DROP1 currState.HOLDP01 currState.HOLDT01 currState.HOLDC01 currState.CRED0DROP1 currState.HOLDP30 currState.HOLDT30 currState.HOLDC30 currState.CRED3DROP0 currState.HOLDP20 currState.HOLDT20 currState.HOLDC20 currState.CRED2DROP0 currState.HOLDP10 currState.HOLDT10 currState.HOLDC10 currState.CRED1DROP0 currState.HOLDP00 currState.HOLDT00 currState.HOLDC00 currState.NOCREDIT 
+currState.NOCREDIT 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+currState.HOLDC00 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+currState.HOLDT00 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+currState.HOLDP00 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+currState.CRED1DROP0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+currState.HOLDC10 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+currState.HOLDT10 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+currState.HOLDP10 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+currState.CRED2DROP0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+currState.HOLDC20 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+currState.HOLDT20 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+currState.HOLDP20 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+currState.CRED3DROP0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+currState.HOLDC30 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+currState.HOLDT30 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+currState.HOLDP30 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+currState.CRED0DROP1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+currState.HOLDC01 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+currState.HOLDT01 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+currState.HOLDP01 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+currState.CRED1DROP1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+currState.HOLDC11 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+currState.HOLDT11 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+currState.HOLDP11 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+currState.CRED2DROP1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+currState.HOLDC21 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+currState.HOLDT21 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+currState.HOLDP21 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+currState.CRED3DROP1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+currState.HOLDC31 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+currState.HOLDT31 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+currState.HOLDP31 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 

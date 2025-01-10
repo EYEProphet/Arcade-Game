@@ -1,0 +1,6 @@
+{"vcs1":{"timestamp_begin":1711681173.996343618, "rt":0.23, "ut":0.13, "st":0.08}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1711681173.402231900}
+{"VCS_COMP_START_TIME": 1711681173.402231900}
+{"VCS_COMP_END_TIME": 1711681174.308912784}
+{"VCS_USER_OPTIONS": "-q -nc -sverilog -sverilog -debug /afs/andrew.cmu.edu/usr12/tbeasley/private/240/library.sv mastermindVGA.sv zorgGame.sv"}
+{"vcs1": {"peak_mem": 323292}}

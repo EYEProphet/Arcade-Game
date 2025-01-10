@@ -1,0 +1,36 @@
+22:17:29    16 -->                                                             [tcl] ucliGUI::connect -toolargs -ucligui -toolexe ./simv -pid 223336 -toolin /tmp/vcs_20240329021722_223335_tbeasley..stdin -toolout /tmp/vcs_20240329021722_223335_tbeasley..stdout  
+22:17:29    17 -->                                                                 [tcl] set ucliGUI::state
+22:17:30    18 -->                                                                     [tcl] set ucliGUI::state
+22:17:30    19 -->                                                                         [tcl] ucliCore::getToolPID
+22:17:30    20 -->                                                                             [tcl] synopsys::env hasTB
+22:17:30    21 -->                                                                                 [tcl] trigger_hier_stack_context_switch 0
+22:17:30    22 -->                                                                                     [tcl] synUtils::setDVEInitPhase 1
+22:17:30    23 -->                                                                                         [tcl] gui_get_env SIMSETUP::SIMVPD
+22:17:30    24 -->                                                                                             [tcl] synopsys::dump -type VPD -file /afs/andrew.cmu.edu/usr12/tbeasley/private/240/Labs/Lab4/inter.vpd -locking
+22:17:30    25 --> ...  [tcl] synopsys::dump -autoflush on -fid VPD0
+22:17:30    26 --> ...      [tcl] set ::dve_fid VPD0
+22:17:30    27 --> ...          [tcl] synUtils::setDVEInitPhase 0
+22:17:30    28 --> ...              [tcl] ucliCore::getToolPID
+22:17:30    29 --> ...                  [tcl] synUtils::sendTool -active _icl_setToolSocket /tmp/smlnp711F1h
+22:17:30    30 --> ...                      [tcl] synUtils::sendTool -active {_icl_start_rpc -version "T-2022.06_Full64" -sync_file /tmp/vcs_dve_rpc.tbeasley.223336}
+22:17:31    31 --> ...                          [tcl] synUtils::sendTool -active {_icl_createSharedMemory /tmp/vcs_dve_general.tbeasley.223336}
+22:17:32    32 --> ...                              [tcl] dveMisc::vbusExpand Decoder
+22:17:32    33 --> ...                                  [tcl] dveMisc::vbusExpand _vcs_unit__3825563168
+22:17:34    34 --> ...                                      [tcl] config endofsim noexit
+22:17:34    35 --> ...                                          [tcl] config onfail enable all
+22:17:34    36 --> ...                                              [tcl] config syscaddplainmembers
+22:17:34    37 --> ...                                                  [tcl] config syscaddsourcenames
+22:17:34    38 --> ...                                                      [tcl] config syscaddstructtypes
+22:17:34    39 --> ...                                                          [tcl] synopsys::listing -disable
+22:17:38    40 --> ...                                                              [tcl] dveMisc::vbusExpand ZorgGame_test
+22:17:48    41 --> ...                                                                  [tcl] ucliGUI::vpdAddHierarchy -scope ZorgGame_test -depth 1 -file /afs/andrew.cmu.edu/usr12/tbeasley/private/240/Labs/Lab4/inter.vpd; synopsys::dump -flush VPD0
+22:17:48    42 --> ...                                                                      [tcl] synopsys::dump -add {ZorgGame_test.CoinInserted ZorgGame_test.CoinValue ZorgGame_test.GameWon ZorgGame_test.GradeIt ZorgGame_test.Guess ZorgGame_test.LoadShape ZorgGame_test.LoadShapeNow ZorgGame_test.NumGames ZorgGame_test.RoundNumber ZorgGame_test.ShapeLocation ZorgGame_test.StartGame ZorgGame_test.Znarly ZorgGame_test.Zood ZorgGame_test.clock ZorgGame_test.doneMasterPattern ZorgGame_test.masterPattern ZorgGame_test.maxRound ZorgGame_test.reset } -aggregates  -fid VPD0
+22:17:50    43 --> ...                                                                          [tcl] synopsys::run
+22:17:50    44 --> ...                                                                              [tcl] set ucliGUI::state
+22:17:50    45 --> ...                                                                                  [tcl] gui_update_simulator_buttons
+22:17:50    46 --> ...                                                                                      [tcl] set ucliGUI::state
+22:17:50    47 --> ...                                                                                          [tcl] set ucliGUI::state
+22:17:50    48 --> ...                                                                                              [tcl] set ucliGUI::state
+22:17:50    49 --> ...                                                                                                  [tcl] catch {senv activeDomain} dveMisc::result 
+22:17:50    50 --> ...  [tcl] set dveMisc::result
+22:17:50    51 --> ...      [tcl] gui_update_simulator_buttons

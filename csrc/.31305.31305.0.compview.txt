@@ -1,0 +1,9 @@
+{"vcs1":{"timestamp_begin":1711656516.423998158, "rt":0.71, "ut":0.37, "st":0.21}}
+{"vcselab":{"timestamp_begin":1711656517.191401379, "rt":0.53, "ut":0.28, "st":0.16}}
+{"link":{"timestamp_begin":1711656517.760952536, "rt":0.35, "ut":0.10, "st":0.21}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1711656515.949332876}
+{"VCS_COMP_START_TIME": 1711656515.949332876}
+{"VCS_COMP_END_TIME": 1711656518.173749243}
+{"VCS_USER_OPTIONS": "-q -nc -sverilog -sverilog -debug /afs/andrew.cmu.edu/usr12/tbeasley/private/240/library.sv zorgGame.sv"}
+{"vcs1": {"peak_mem": 341424}}
+{"stitch_vcselab": {"peak_mem": 230800}}

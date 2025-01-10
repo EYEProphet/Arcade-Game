@@ -1,0 +1,140 @@
+# Preference setting overrides
+gui_create_pref_key -category {Globals} -key {load_detail_for_funcov} -value_type {bool} -value {false}
+gui_create_pref_category -category {schem_obj_name}
+gui_create_pref_key -category {schem_obj_name} -key {show_cell_and_pin_with_symbol_name} -value_type {bool} -value {false}
+gui_create_pref_key -category {schem_pin_hc} -key {textExtFont} -value_type {string} -value {Helvetica,10,-1,5,50,0,0,0,0,0}
+
+# State setting overrides
+gui_state_default_create -off -ini
+gui_set_state_value -category Layout -key child_console_size_y -value 177
+gui_set_state_value -category Layout -key child_data_coltype -value 27
+gui_set_state_value -category Layout -key child_data_colvalue -value 12
+gui_set_state_value -category Layout -key child_data_colvariable -value 113
+gui_set_state_value -category Layout -key child_data_size_x -value 149
+gui_set_state_value -category Layout -key child_data_size_y -value 302
+gui_set_state_value -category Layout -key child_driver_size_x -value 417
+gui_set_state_value -category Layout -key child_driver_size_y -value 179
+gui_set_state_value -category Layout -key child_hier_col3 -value {-1}
+gui_set_state_value -category Layout -key child_hier_colpd -value 0
+gui_set_state_value -category Layout -key child_hier_size_x -value 145
+gui_set_state_value -category Layout -key child_hier_size_y -value 302
+gui_set_state_value -category Layout -key child_schematic_docknewline -value false
+gui_set_state_value -category Layout -key child_schematic_pos_x -value {-2}
+gui_set_state_value -category Layout -key child_schematic_pos_y -value {-15}
+gui_set_state_value -category Layout -key child_schematic_size_x -value 390
+gui_set_state_value -category Layout -key child_schematic_size_y -value 315
+gui_set_state_value -category Layout -key child_source_docknewline -value false
+gui_set_state_value -category Layout -key child_source_pos_x -value {-2}
+gui_set_state_value -category Layout -key child_source_pos_y -value {-15}
+gui_set_state_value -category Layout -key child_source_size_x -value 398
+gui_set_state_value -category Layout -key child_source_size_y -value 297
+gui_set_state_value -category Layout -key child_wave_colname -value 211
+gui_set_state_value -category Layout -key child_wave_colvalue -value 212
+gui_set_state_value -category Layout -key child_wave_left -value 427
+gui_set_state_value -category Layout -key child_wave_right -value 1042
+gui_set_state_value -category Layout -key main_pos_x -value 498
+gui_set_state_value -category Layout -key main_pos_y -value 98
+gui_set_state_value -category Layout -key main_size_x -value 1187
+gui_set_state_value -category Layout -key main_size_y -value 726
+gui_set_state_value -category Layout -key stand_source_child_docknewline -value false
+gui_set_state_value -category Layout -key stand_source_child_pos_x -value {-2}
+gui_set_state_value -category Layout -key stand_source_child_pos_y -value {-15}
+gui_set_state_value -category Layout -key stand_source_child_size_x -value 1028
+gui_set_state_value -category Layout -key stand_source_child_size_y -value 268
+gui_set_state_value -category Layout -key stand_wave_child_docknewline -value false
+gui_set_state_value -category Layout -key stand_wave_child_pos_x -value {-2}
+gui_set_state_value -category Layout -key stand_wave_child_pos_y -value {-15}
+gui_set_state_value -category Layout -key stand_wave_child_size_x -value 1479
+gui_set_state_value -category Layout -key stand_wave_child_size_y -value 678
+gui_set_state_value -category Layout -key stand_wave_top_pos_x -value 8
+gui_set_state_value -category Layout -key stand_wave_top_pos_y -value 31
+gui_set_state_value -category Layout -key stand_wave_top_size_x -value 1482
+gui_set_state_value -category Layout -key stand_wave_top_size_y -value 813
+gui_create_state_key -category FindDialog -key m_pMatchCase -value_type bool -value false
+gui_create_state_key -category FindDialog -key m_pMatchWord -value_type bool -value false
+gui_create_state_key -category FindDialog -key m_pUseCombo -value_type string -value {}
+gui_create_state_key -category FindDialog -key m_pWrapAround -value_type bool -value true
+gui_create_state_key -category Widget_History -key {dlgSimSetup|m_setupTab|tab pages|BuildTab|m_rebuildBtnGroup|m_customCmdCombo} -value_type string -value {{vcs -sverilog -debug ~/private/240/library.sv zorgGame.sv} {vcs -sverilog -debug hw6prob2_given.sv} {vcs -sverilog -debug /afs/andrew.cmu.edu/usr12/tbeasley/private/240/library.sv hw6prob5.sv} {vcs -sverilog -debug /afs/andrew.cmu.edu/usr12/tbeasley/private/240/library.sv hw6prob4.sv} {vcs -sverilog -debug /afs/andrew.cmu.edu/usr12/tbeasley/private/240/library.sv hw6prob3.sv}}
+gui_create_state_key -category Widget_History -key {dlgSimSetup|m_setupTab|tab pages|BuildTab|m_rebuildBtnGroup|m_customDirCombo} -value_type string -value {{vcs -sverilog -R hw5prob3.sv}}
+gui_create_state_key -category Widget_History -key {dlgSimSetup|m_setupTab|tab pages|SimTab|m_VPDCombo} -value_type string -value inter.vpd
+gui_create_state_key -category Widget_History -key {dlgSimSetup|m_setupTab|tab pages|SimTab|m_argsCombo} -value_type string -value {{-ucligui }}
+gui_create_state_key -category Widget_History -key {dlgSimSetup|m_setupTab|tab pages|SimTab|m_curDirCombo} -value_type string -value {/afs/andrew.cmu.edu/usr12/tbeasley/private/240/Labs/Lab4 /afs/andrew.cmu.edu/usr12/tbeasley/private/240/HW/HW6 /afs/andrew.cmu.edu/usr12/tbeasley/private/240/HW/HW5 /afs/andrew.cmu.edu/usr12/tbeasley/private/240/HW/HW4 /afs/andrew.cmu.edu/usr12/tbeasley/private/240/Labs/Lab0}
+gui_create_state_key -category Widget_History -key {dlgSimSetup|m_setupTab|tab pages|SimTab|m_exeCombo} -value_type string -value {/afs/andrew.cmu.edu/usr12/tbeasley/private/240/Labs/Lab4/simv ./simv /afs/andrew.cmu.edu/usr12/tbeasley/private/240/HW/HW6/simv /afs/andrew.cmu.edu/usr12/tbeasley/private/240/HW/HW5/simv /afs/andrew.cmu.edu/usr12/tbeasley/private/240/HW/HW4/simv}
+gui_create_state_key -category SearchDialog -key MatchCase -value_type bool -value false
+gui_create_state_key -category SearchDialog -key MatchWord -value_type bool -value true
+gui_create_state_key -category SearchDialog -key SearchMode -value_type string -value Wildcards
+gui_create_state_key -category SearchDialog -key UseCombo -value_type bool -value true
+gui_state_default_create -off
+
+# Begin command logging
+gui_sim_run Ucli -exe ./simv -args {-ucligui  } -dir .
+gui_list_expand -id  Hier.1   ZorgGame_test
+gui_list_select -id Hier.1 -current_item_name ZorgGame_test -current_item_type Scope  -selected  { ZorgGame_test   }
+gui_list_select -id Data.1 -selected  { ZorgGame_test.clock   }
+gui_list_select_all -id Data.1
+gui_open_window Wave
+gui_list_add -id Wave.1 -from Data.1 { {ZorgGame_test.CoinValue[1:0]} {ZorgGame_test.ShapeLocation[1:0]} ZorgGame_test.CoinInserted ZorgGame_test.StartGame ZorgGame_test.GradeIt ZorgGame_test.LoadShapeNow ZorgGame_test.reset ZorgGame_test.clock ZorgGame_test.GameWon ZorgGame_test.maxRound {ZorgGame_test.Guess[11:0]} {ZorgGame_test.masterPattern[11:0]} {ZorgGame_test.LoadShape[2:0]} {ZorgGame_test.Znarly[3:0]} {ZorgGame_test.Zood[3:0]} {ZorgGame_test.RoundNumber[3:0]} {ZorgGame_test.NumGames[3:0]} ZorgGame_test.doneMasterPattern } -insertionbar
+gui_sim_continue  
+gui_marker_move -id  Wave.1 C1 1501
+gui_marker_move -id  Wave.1 C1 1480
+gui_marker_move -id  Wave.1 C1 1524
+gui_marker_move -id  Wave.1 C1 1544
+gui_marker_move -id  Wave.1 C1 1562
+gui_list_select -id Wave.1 -selected  { {ZorgGame_test.masterPattern[11:0]}   }
+gui_list_set_selected_property -id Wave.1 -radix binary
+gui_list_select -id Wave.1 -selected  { {ZorgGame_test.Guess[11:0]}   }
+gui_list_set_selected_property -id Wave.1 -radix binary
+gui_marker_move -id  Wave.1 C1 1444
+gui_marker_move -id  Wave.1 C1 1434
+gui_marker_move -id  Wave.1 C1 1479
+gui_marker_move -id  Wave.1 C1 1501
+gui_marker_move -id  Wave.1 C1 1519
+gui_list_select -id Wave.1 -selected  { {ZorgGame_test.masterPattern[11:0]}   }
+gui_list_select -id Wave.1 -selected  { {ZorgGame_test.Guess[11:0]}   }
+gui_marker_move -id  Wave.1 C1 1536
+gui_marker_move -id  Wave.1 C1 1543
+gui_marker_move -id  Wave.1 C1 1552
+gui_marker_move -id  Wave.1 C1 1561
+gui_marker_move -id  Wave.1 C1 1508
+gui_marker_move -id  Wave.1 C1 1555
+gui_marker_move -id  Wave.1 C1 1555
+gui_marker_move -id  Wave.1 C1 1562
+gui_marker_move -id  Wave.1 C1 1530
+gui_marker_move -id  Wave.1 C1 1455
+gui_marker_move -id  Wave.1 C1 1465
+gui_marker_move -id  Wave.1 C1 1475
+gui_marker_move -id  Wave.1 C1 1485
+gui_marker_move -id  Wave.1 C1 1495
+gui_marker_move -id  Wave.1 C1 1505
+gui_marker_move -id  Wave.1 C1 1520
+gui_marker_move -id  Wave.1 C1 1515
+gui_marker_move -id  Wave.1 C1 1525
+gui_marker_move -id  Wave.1 C1 1535
+gui_marker_move -id  Wave.1 C1 1545
+gui_marker_move -id  Wave.1 C1 1560
+gui_marker_move -id  Wave.1 C1 1555
+gui_marker_move -id  Wave.1 C1 1455
+gui_marker_move -id  Wave.1 C1 1465
+gui_marker_move -id  Wave.1 C1 1475
+gui_marker_move -id  Wave.1 C1 1485
+gui_marker_move -id  Wave.1 C1 1495
+gui_marker_move -id  Wave.1 C1 1505
+gui_marker_move -id  Wave.1 C1 1515
+gui_marker_move -id  Wave.1 C1 1525
+gui_marker_move -id  Wave.1 C1 1535
+gui_marker_move -id  Wave.1 C1 1545
+gui_marker_move -id  Wave.1 C1 1555
+gui_marker_move -id  Wave.1 C1 1455
+gui_marker_move -id  Wave.1 C1 1465
+gui_marker_move -id  Wave.1 C1 1475
+gui_marker_move -id  Wave.1 C1 1485
+gui_marker_move -id  Wave.1 C1 1495
+gui_marker_move -id  Wave.1 C1 1505
+gui_marker_move -id  Wave.1 C1 1515
+gui_marker_move -id  Wave.1 C1 1525
+gui_marker_move -id  Wave.1 C1 1535
+gui_marker_move -id  Wave.1 C1 1545
+gui_marker_move -id  Wave.1 C1 1555
+gui_marker_move -id  Wave.1 C1 1465
+gui_marker_move -id  Wave.1 C1 1515
+gui_close_window -window TopLevel.2

@@ -1,0 +1,5 @@
+{"comelab":{"timestamp_begin":1711599288.715773480, "rt":2.67, "ut":1.14, "st":1.33}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1711599288.187716597}
+{"VCS_COMP_START_TIME": 1711599288.187716597}
+{"VCS_COMP_END_TIME": 1711599291.454618771}
+{"VCS_USER_OPTIONS": "-q -nc -sverilog -sverilog -debug ZorgGame_test"}
